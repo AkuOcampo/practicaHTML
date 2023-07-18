@@ -5,12 +5,20 @@ body{
     
 }
 
+/*---Estilo de clases----*/
 .title{
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: center;    
 }
 
 p{
     font-family: 'Lato', sans-serif;
     text-align: end;
+    color: crimson;
+}
+
+/*---Estilos de id------*/
+
+#parrafo-1{
+    color: blueviolet;
 }
