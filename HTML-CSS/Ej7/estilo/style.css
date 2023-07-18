@@ -1,0 +1,16 @@
+/*---Estilo generales----*/
+
+body{
+    background-color: bisque;
+    
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    text-align: end;
+}

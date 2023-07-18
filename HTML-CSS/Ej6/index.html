@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrar un usuario</h1>
+    <form action="" method="" enctype="multipart/form-data">
+        <div>
+            <label for="nombre">Nombre de usuario</label><br>
+            <input name="nombre" type="text">
+        </div>
+        <div>
+            <label for="contra">Contraseña del usuario</label><br>
+            <input name="contra" type="password">
+        </div>
+        <div>
+            <label for="edad">Edad del usuario</label><br>
+            <input name="edad" type="number">
+        </div>
+        <div>
+            <label for="fecha">Fecha de nacimiento del usuario</label><br>
+            <input name="fecha" type="date">
+        </div>
+        <div>
+            <label for="sexo">Sexo del usuario</label>
+            <br>
+            <input name="sexo" type="radio" value="f">
+            <label>Mujer</label>            
+            <br>
+            <input name="sexo" type="radio" value="m">
+            <label>Hombre</label>
+            <br>
+            <input name="sexo" type="radio" value="o">
+            <label>Prefiero no decir</label>
+        </div>
+        <div>
+            <label for="pais">Pais nacimiento del usuario</label><br>
+            <select name="pais">
+                <option value="arg">Argentina</option>
+                <option value="bra">Brasil</option>
+                <option value="chi">Chile</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </div>  
+    </form>
+</body>
+</html>
